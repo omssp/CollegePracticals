@@ -20,10 +20,10 @@ xa = x + na
 
 subplot( 3, 1, 2 )
 stem( xa, y )
-title(['Advanced Signal x(n + ' (na + 48) ')'])
+title(['Advanced Signal x(n + ' int2str(na) ')'])
 
 xd = x - nd
 
 subplot( 3, 1, 3 )
 stem( xd, y )
-title(['Delayed Signal x(n - ', (nd + 48), ')'])
+title(['Delayed Signal x(n - ' int2str(nd) ')'])
