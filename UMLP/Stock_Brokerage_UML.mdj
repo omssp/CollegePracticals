@@ -4912,8 +4912,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 280,
-									"top": 587,
+									"left": 272,
+									"top": 595,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -4933,8 +4933,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 280,
-									"top": 572,
+									"left": 272,
+									"top": 580,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -4954,8 +4954,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 280,
-									"top": 617,
+									"left": 272,
+									"top": 625,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -5125,7 +5125,7 @@
 							"tail": {
 								"$ref": "AAAAAAFsHjW97CyQLBM="
 							},
-							"points": "199:528;280:528;280:608;480:608;480:602",
+							"points": "199:528;272:528;272:616;480:616;480:602",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFsHjcN5zAnmto="
@@ -5182,7 +5182,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 897,
+									"left": 1025,
 									"top": 529,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -5203,7 +5203,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 882,
+									"left": 1010,
 									"top": 529,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -5224,7 +5224,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 926,
+									"left": 1054,
 									"top": 530,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -5395,7 +5395,7 @@
 							"tail": {
 								"$ref": "AAAAAAFsHjLKnStqKQs="
 							},
-							"points": "576:584;912:584;912:488;1144:488",
+							"points": "576:584;1040:584;1040:488;1144:488",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFsHjcftTDTDQo="
