@@ -1,3 +1,3 @@
 # CollegePracticals
 
-A Simple Repo to store all my college practicals
+A Simple Repository to store all my college practicals
