@@ -41,24 +41,24 @@ public:
 		std :: cout << "\b\b ]";
 	}
 
-	void DFSUtil(int v, bool visited[]) {
-		visited[v] = true;
-		std :: cout << v << ", ";
+	void DFSUtil(int source, bool visited[]) {
+		visited[source] = true;
+		std :: cout << source << ", ";
 
 		std :: list<int>::iterator i;
-		for ( i = adj[v].begin(); i != adj[v].end(); ++i ) {
+		for ( i = adj[source].begin(); i != adj[source].end(); ++i ) {
 			if ( !visited[*i] )
 				DFSUtil(*i, visited);
 		}
 	}
 
-	void DFS( int v ) {
+	void DFS( int source ) {
 		bool *visited = new bool[vn];
 		for (int i = 0; i < vn; ++i) {
 			visited[i] = false;
 		}
 		std :: cout << "\n\n DFS : [ ";
-		DFSUtil(v, visited);
+		DFSUtil(source, visited);
 		std :: cout << "\b\b ]";
 	}
 
